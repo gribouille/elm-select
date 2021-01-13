@@ -1,0 +1,79 @@
+.gribouille-select {
+  width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgrey;
+  position: relative;
+  text-align: left;
+
+  .values {
+    display: flex;
+    flex-wrap: wrap;
+
+    span {
+      margin: 4px 5px 4px 5px;
+
+      &.search {
+        flex: 1 1 40px;
+        width: 100%;
+      }
+    }
+
+    input {
+      font-size: 16px;
+      margin-left: 5px;
+      width: 100%;
+      border-style: none;
+
+      &:hover,
+      &:focus,
+      &:active {
+        outline: none;
+      }
+    }
+
+    .expand {
+      color: lightgrey;
+      outline: none;
+    }
+  }
+
+  .items {
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 10;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgrey;
+
+    &.overlay {
+      width: 100%;
+      position: absolute;
+    }
+  }
+
+  ul {
+    margin: 0;
+
+    li {
+      padding-left: 15px;
+      padding-top: 4px;
+      padding-bottom: 4px;
+
+      border-top-style: solid;
+      border-top-width: 1px;
+      border-top-color: lightgray;
+
+      &:hover {
+        background-color: rgba($color: lightblue, $alpha: 0.3);
+      }
+
+      &.selected {
+        border-left-style: solid;
+        border-left-width: 4px;
+        border-left-color: hsl(204, 86%, 53%);
+      }
+    }
+  }
+}

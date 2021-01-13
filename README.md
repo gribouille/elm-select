@@ -1,6 +1,6 @@
 # elm-select
 
-ELM select component (in progress...).
+ELM select component with autocompletion (in progress...).
 
 
 ## Example

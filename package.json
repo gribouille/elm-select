@@ -1,29 +1,30 @@
 {
-  "name": "elm-select",
-  "version": "1.0.0",
-  "description": "ELM select component",
-  "main": "index.js",
+  "author": "Gribouille <gribouille.git@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/gribouille/elm-select/issues"
+  },
+  "description": "ELM select component with autocompletion",
   "directories": {
     "example": "examples"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gribouille/elm-select.git"
-  },
+  "homepage": "https://github.com/gribouille/elm-select#readme",
   "keywords": [
     "elm",
     "component",
     "select",
+    "autocomplete",
     "scss",
     "css"
   ],
-  "author": "Gribouille <gribouille.git@gmail.com>",
   "license": "MPL-2.0",
-  "bugs": {
-    "url": "https://github.com/gribouille/elm-select/issues"
+  "main": "index.js",
+  "name": "elm-autocomplete",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gribouille/elm-select.git"
   },
-  "homepage": "https://github.com/gribouille/elm-select#readme"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
 }
